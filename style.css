@@ -276,6 +276,9 @@ h3 {
   .atabayrak {
     width: 120px;
   }
+  .image {
+    width: 80%;
+  }
 }
 
 @media (min-width: 700px) {
