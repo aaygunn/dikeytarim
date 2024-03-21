@@ -184,7 +184,7 @@ h3 {
   font-size: 16px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .profil-foto {
     width: 180px;
     margin-top: 10px;
@@ -228,6 +228,53 @@ h3 {
   }
   .atabayrak {
     width: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profil-foto {
+    width: 140px;
+    margin-top: 10px;
+  }
+  header {
+    height: 80px;
+  }
+  #hakkimda p {
+    width: 90%;
+    font-size: 12px;
+  }
+  .hamburger {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    cursor: pointer;
+  }
+  .link {
+    display: none;
+  }
+  .header-logo {
+    width: 70%;
+  }
+  .meblogo {
+    width: 80px;
+  }
+  .header-alt {
+    width: 100%;
+  }
+  .header-alt h1 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+  }
+  .header-alt h3 {
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0;
+  }
+  .atabayrak {
+    width: 140px;
   }
 }
 
