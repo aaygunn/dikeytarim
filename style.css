@@ -256,6 +256,9 @@ h3 {
   .header-logo {
     width: 90%;
   }
+  .header-logo p {
+    font-size: 14px;
+  }
   .meblogo {
     width: 80px;
   }
